@@ -20,7 +20,7 @@
 你可以通过以下命令一键安装并运行本脚本：
 
 ```bash
-bash <(curl -sSL https://raw.githubusercontent.com/你的GitHub用户名/你的项目名/main/acme-installer.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/fssxg/ACME-Management/refs/heads/main/ACME.sh)
 ```
 
 > ⚠️ 注意：请确保你使用的是 **root 用户** 或具有 `sudo` 权限。
