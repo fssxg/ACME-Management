@@ -58,7 +58,7 @@ function restart_web_services() {
 # 函数：安装 acme.sh
 function install_acme() {
   if [ ! -d "$HOME/.acme.sh" ]; then
-    curl https://get.acme.sh | sh
+    curl https://github.com/fssxg/acme.sh | sh
     source ~/.bashrc
   fi
   ~/.acme.sh/acme.sh --set-default-ca --server letsencrypt
