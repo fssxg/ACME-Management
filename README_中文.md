@@ -1,6 +1,6 @@
 ## 🌐 [中文](https://github.com/woixd/ACME-Management/blob/main/README-%E4%B8%AD%E6%96%87.md)/[EN](https://github.com/woixd/ACME-Management/blob/main/README.md)
 
-# 📜 ACME.sh 多系统自动证书签发脚本
+# ACME.sh 多系统自动证书签发脚本
 
 这是一个基于 [acme.sh](https://github.com/acmesh-official/acme.sh) 的自动 SSL/TLS 证书管理脚本，支持 Let's Encrypt 免费证书签发、续签与卸载。
 
