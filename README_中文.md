@@ -1,4 +1,4 @@
-## 🌐 [中文](https://github.com/fssxg/ACME-Management/blob/main/README-%E4%B8%AD%E6%96%87.md)/[EN](https://github.com/fssxg/ACME-Management/blob/main/README.md)
+## 🌐 [中文](https://github.com/woixd/ACME-Management/blob/main/README-%E4%B8%AD%E6%96%87.md)/[EN](https://github.com/woixd/ACME-Management/blob/main/README.md)
 
 # 📜 ACME.sh 多系统自动证书签发脚本
 
@@ -21,7 +21,7 @@
 你可以通过以下命令一键安装并运行本脚本：
 
 ```bash
-bash <(curl -sSL https://raw.githubusercontent.com/fssxg/ACME-Management/refs/heads/main/ACME_CN.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/woixd/ACME-Management/refs/heads/main/ACME_CN.sh)
 ```
 
 > ⚠️ 注意：请确保你使用的是 **root 用户** 或具有 `sudo` 权限。
