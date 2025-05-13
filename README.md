@@ -1,4 +1,4 @@
-[中文](https://github.com/fssxg/ACME-Management/blob/main/README-%E4%B8%AD%E6%96%87.md)/[EN](https://github.com/fssxg/ACME-Management/blob/main/README.md)
+[中文](https://github.com/fssxg/ACME-Management/blob/main/README_%E4%B8%AD%E6%96%87.md)/[EN](https://github.com/fssxg/ACME-Management/blob/main/README.md)
 
 # 📜 ACME.sh Multi-System Automatic Certificate Issuance Script
 
