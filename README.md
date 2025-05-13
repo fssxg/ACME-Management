@@ -1,6 +1,6 @@
 ## 🌐 [中文](https://github.com/woixd/ACME-Management/blob/main/README_%E4%B8%AD%E6%96%87.md)/[EN](https://github.com/woixd/ACME-Management/blob/main/README.md)
 
-# 📜 ACME.sh Multi-System Automatic Certificate Issuance Script
+# ACME.sh Multi-System Automatic Certificate Issuance Script
 
 This is an automated SSL/TLS certificate management script based on [acme.sh](https://github.com/acmesh-official/acme.sh), supporting the issuance, renewal, and removal of free Let's Encrypt certificates.
 
