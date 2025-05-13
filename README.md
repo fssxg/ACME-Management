@@ -1,4 +1,4 @@
-[中文](https://github.com/fssxg/ACME-Management/blob/main/README_%E4%B8%AD%E6%96%87.md)/[EN](https://github.com/fssxg/ACME-Management/blob/main/README.md)
+## 🌐 [中文](https://github.com/fssxg/ACME-Management/blob/main/README_%E4%B8%AD%E6%96%87.md)/[EN](https://github.com/fssxg/ACME-Management/blob/main/README.md)
 
 # 📜 ACME.sh Multi-System Automatic Certificate Issuance Script
 
@@ -145,5 +145,7 @@ A: Yes. Ensure ports 80/443 are free during issuance, or stop relevant services 
 
 ---
 
-❤️ Open Source License
-MIT License – Free to use, modify, and extend. If you like this project, feel free to give it a ⭐ Star to show your support!
+## ❤️ Open Source License
+
+MIT License – free to use / modify / extend.  
+If you like this project, feel free to ⭐Star it in support!
