@@ -1,4 +1,4 @@
-## 🌐 [中文](https://github.com/fssxg/ACME-Management/blob/main/README_%E4%B8%AD%E6%96%87.md)/[EN](https://github.com/fssxg/ACME-Management/blob/main/README.md)
+## 🌐 [中文](https://github.com/woixd/ACME-Management/blob/main/README_%E4%B8%AD%E6%96%87.md)/[EN](https://github.com/woixd/ACME-Management/blob/main/README.md)
 
 # 📜 ACME.sh Multi-System Automatic Certificate Issuance Script
 
@@ -21,7 +21,7 @@ This is an automated SSL/TLS certificate management script based on [acme.sh](ht
 You can install and run the script with the following command:
 
 ```bash
-bash <(curl -sSL https://raw.githubusercontent.com/fssxg/ACME-Management/refs/heads/main/ACME.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/woixd/ACME-Management/refs/heads/main/ACME.sh)
 ```
 
 > ⚠️ Note: Make sure you are using the **root user** or have `sudo` privileges.
