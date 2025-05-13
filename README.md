@@ -145,4 +145,5 @@ A: Yes. Ensure ports 80/443 are free during issuance, or stop relevant services 
 
 ---
 
-For feedback or issues, please visit the project repository.
+❤️ Open Source License
+MIT License – Free to use, modify, and extend. If you like this project, feel free to give it a ⭐ Star to show your support!
