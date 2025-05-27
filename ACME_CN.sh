@@ -17,7 +17,7 @@ mkdir -p "$SSL_DIR"
 # 函数：卸载证书（含域名列表选择）
 function uninstall_cert() {
   echo -e "\n[可卸载的域名列表]"
-  DOMAIN_LIST=$(find ~/.acme.sh -type f -name "ca.cer" -exec dirname {} \; | awk -F'/' '{print $NF}' | sort)
+  DOMAIN_LIST=$(find ~/.acme.sh -maxdepth 1 -type d -exec basename {} \; | grep -v '^\.acme.sh$' | sort)
   echo "$DOMAIN_LIST"
 
   read -rp "请输入要卸载的域名（从上方列表选择）: " DEL_DOMAIN
@@ -25,9 +25,16 @@ function uninstall_cert() {
     echo "[取消] 未输入域名"
     exit 1
   fi
-  ~/.acme.sh/acme.sh --remove -d "$DEL_DOMAIN"
+
+  echo "[INFO] 正在清理 $DEL_DOMAIN..."
+
+  # 删除 ~/.acme.sh 中对应域名的普通和 ECC 证书目录
+  rm -rf "$HOME/.acme.sh/$DEL_DOMAIN" "$HOME/.acme.sh/${DEL_DOMAIN}_ecc"
+
+  # 删除自定义保存路径中的证书文件
   rm -f "$SSL_DIR/$DEL_DOMAIN."*
-  echo "[已卸载] $DEL_DOMAIN 的证书及相关文件"
+
+  echo "[完成] $DEL_DOMAIN 的相关证书文件已删除，不影响其他域名。"
   exit 0
 }
 
